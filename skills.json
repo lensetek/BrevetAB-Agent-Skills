@@ -1,0 +1,13 @@
+{
+  "entries": [
+    { "path": "skills/tax-orchestrator" },
+    { "path": "skills/tax-regulation-monitor" },
+    { "path": "skills/accounting-data-processor" },
+    { "path": "skills/tax-report-generator" },
+    { "path": "skills/agent-update-manager" },
+    { "path": "skills/user-personalization-learner" },
+    { "path": "skills/withholding-vat-analyst" },
+    { "path": "skills/tax-dispute-defender" },
+    { "path": "skills/tax-planner-strategist" }
+  ]
+}
