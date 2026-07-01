@@ -63,13 +63,7 @@
     <div class="container">
       <nav>
         <a href="#" class="logo">
-          <!-- Stylized red/orange B logo similar to mockup -->
-          <svg class="logo-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="100" height="100" rx="16" fill="transparent"/>
-            <path d="M30 25C30 22.2386 32.2386 20 35 20H55C66.0457 20 75 28.9543 75 40C75 46.545 71.8592 52.3551 67 56C71.8592 59.6449 75 65.455 75 72C75 83.0457 66.0457 92 55 92H35C32.2386 92 30 89.7614 30 87V25Z" fill="#dc2626"/>
-            <path d="M42 32H54C58.4183 32 62 35.5817 62 40C62 44.4183 58.4183 48 54 48H42V32Z" fill="#030712"/>
-            <path d="M42 58H54C58.4183 58 62 61.5817 62 66C62 70.4183 58.4183 74 54 74H42V58Z" fill="#030712"/>
-          </svg>
+          <img src="https://cdn.lensetek.com/favicon.png" alt="Logo Favicon">
           <span>Brevet AB Agent Skills</span>
         </a>
         <div class="controls">
@@ -86,26 +80,9 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <!-- Circular wireframe sphere background from mockup -->
-    <div class="hero-bg-sphere">
-      <svg viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="400" cy="400" r="350" stroke="#3b82f6" stroke-width="0.75" stroke-dasharray="6 6" opacity="0.1" />
-        <circle cx="400" cy="400" r="280" stroke="#3b82f6" stroke-width="0.75" opacity="0.15" />
-        <circle cx="400" cy="400" r="210" stroke="#3b82f6" stroke-width="0.75" stroke-dasharray="4 4" opacity="0.1" />
-        <circle cx="400" cy="400" r="140" stroke="#3b82f6" stroke-width="0.75" opacity="0.15" />
-        <circle cx="400" cy="400" r="70" stroke="#3b82f6" stroke-width="0.75" stroke-dasharray="2 2" opacity="0.1" />
-        <ellipse cx="400" cy="400" rx="350" ry="120" stroke="#3b82f6" stroke-width="0.75" opacity="0.12" />
-        <ellipse cx="400" cy="400" rx="350" ry="220" stroke="#3b82f6" stroke-width="0.75" opacity="0.12" />
-        <ellipse cx="400" cy="400" rx="120" stroke="#3b82f6" stroke-width="0.75" opacity="0.12" />
-        <ellipse cx="400" cy="400" rx="220" stroke="#3b82f6" stroke-width="0.75" opacity="0.12" />
-        <line x1="50" y1="400" x2="750" y2="400" stroke="#3b82f6" stroke-width="0.5" opacity="0.1" />
-        <line x1="400" y1="50" x2="400" y2="750" stroke="#3b82f6" stroke-width="0.5" opacity="0.1" />
-      </svg>
-    </div>
-
     <div class="container">
       <span class="hero-badge">AI-Powered Tax Ecosystem</span>
-      <h1 id="hero-title">Otomatiskan Alur Kerja Perpajakan <span>Brevet AB</span></h1>
+      <h1 id="hero-title">Otomatiskan Alur Kerja Perpajakan Brevet AB</h1>
       <p id="hero-subtitle">Asisten AI pintar untuk konsultan dan profesional pajak. Dilengkapi kapabilitas rekonsiliasi fiskal, pemantau regulasi harian, hingga penanganan sengketa SP2DK.</p>
       
       <div class="hero-ctas">
@@ -124,10 +101,10 @@
     <div class="prompt-installer">
       <div class="prompt-header">
         <div class="prompt-title">
-          <span class="prompt-icon-orange">🚨</span> <span id="installer-title">Salin Prompt untuk Instalasi Cepat</span>
+          📥 <span id="installer-title">Salin Prompt untuk Instalasi Cepat</span>
         </div>
-        <button class="btn-icon" style="padding: 4px 12px; border-radius: 6px; background: rgba(255,255,255,0.06);" onclick="copyPrompt()">
-          <span>📄</span> <span id="copy-btn-text">Salin</span>
+        <button class="btn-icon" style="padding: 4px 8px;" onclick="copyPrompt()">
+          📋 <span id="copy-btn-text">Salin</span>
         </button>
       </div>
       <div class="prompt-box" id="prompt-content">Tolong unduh dan instal agent skills Brevet AB dari https://github.com/lensetek/BrevetAB-Agent-Skills dengan cara melakukan clone repositori tersebut, mengekstrak data skill dari folder `skills/`, lalu mendaftarkan path-nya ke dalam berkas `skills.json` di konfigurasi agent saya.</div>
@@ -139,153 +116,60 @@
     <h2 class="section-title" id="grid-title">9 Spesialis Perpajakan AI</h2>
     
     <div class="grid" id="grid-container">
-      
-      <!-- Card 1 (Blue Column) -->
-      <div class="card blue-border">
-        <div class="card-header">
-          <div class="card-icon">👑</div>
-          <svg class="card-graphic" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="50" cy="50" r="30" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.3"/>
-            <circle cx="50" cy="30" r="8" fill="#3b82f6" fill-opacity="0.8"/>
-            <circle cx="30" cy="60" r="8" fill="#1d4ed8" fill-opacity="0.8"/>
-            <circle cx="70" cy="60" r="8" fill="#1d4ed8" fill-opacity="0.8"/>
-            <line x1="50" y1="38" x2="30" y2="52" stroke="#3b82f6" stroke-width="1.5"/>
-            <line x1="50" y1="38" x2="70" y2="52" stroke="#3b82f6" stroke-width="1.5"/>
-            <line x1="38" y1="60" x2="62" y2="60" stroke="#3b82f6" stroke-width="1.5"/>
-          </svg>
-        </div>
+      <!-- Card 1 -->
+      <div class="card">
+        <div class="card-icon">👑</div>
         <h3 data-id="c1-title">Tax Orchestrator</h3>
         <p data-id="c1-desc">Manajer utama yang menerima perintah pengguna, mengoordinasikan agen spesialis, dan merangkum laporan akhir.</p>
       </div>
-
-      <!-- Card 2 (Purple Column) -->
-      <div class="card purple-border">
-        <div class="card-header">
-          <div class="card-icon">🔍</div>
-          <svg class="card-graphic" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="25" y="20" width="40" height="50" rx="4" stroke="#a855f7" stroke-width="1.5" fill="none" opacity="0.3"/>
-            <line x1="32" y1="32" x2="48" y2="32" stroke="#a855f7" stroke-width="1.5"/>
-            <line x1="32" y1="42" x2="58" y2="42" stroke="#a855f7" stroke-width="1.5"/>
-            <line x1="32" y1="52" x2="48" y2="52" stroke="#a855f7" stroke-width="1.5"/>
-            <circle cx="62" cy="62" r="14" stroke="#c084fc" stroke-width="2" fill="#030712"/>
-            <line x1="72" y1="72" x2="88" y2="88" stroke="#c084fc" stroke-width="3" stroke-linecap="round"/>
-          </svg>
-        </div>
+      <!-- Card 2 -->
+      <div class="card">
+        <div class="card-icon">🔍</div>
         <h3 data-id="c2-title">Tax Regulation Monitor</h3>
         <p data-id="c2-desc">Memantau aturan perpajakan terbaru secara harian (UU, PMK, PER) untuk meminimalkan risiko ketidakpatuhan.</p>
       </div>
-
-      <!-- Card 3 (Green Column) -->
-      <div class="card green-border">
-        <div class="card-header">
-          <div class="card-icon">📊</div>
-          <svg class="card-graphic" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="20" y="55" width="16" height="25" rx="2" fill="#10b981" fill-opacity="0.8"/>
-            <rect x="42" y="35" width="16" height="45" rx="2" fill="#10b981" fill-opacity="0.8"/>
-            <rect x="64" y="20" width="16" height="60" rx="2" fill="#059669" fill-opacity="0.8"/>
-            <path d="M15 80 L85 80" stroke="#34d399" stroke-width="2"/>
-            <path d="M28 50 L50 30 L72 15" stroke="#a7f3d0" stroke-width="2" fill="none"/>
-          </svg>
-        </div>
+      <!-- Card 3 -->
+      <div class="card">
+        <div class="card-icon">📊</div>
         <h3 data-id="c3-title">Accounting Data Processor</h3>
         <p data-id="c3-desc">Memproses file Excel/CSV atau foto kuitansi (multimodal OCR) untuk eksekusi rekonsiliasi fiskal.</p>
       </div>
-
-      <!-- Card 4 (Blue Column) -->
-      <div class="card blue-border">
-        <div class="card-header">
-          <div class="card-icon">📝</div>
-          <svg class="card-graphic" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="25" y="20" width="50" height="60" rx="6" stroke="#3b82f6" stroke-width="1.5" opacity="0.3"/>
-            <path d="M35 35 H65" stroke="#3b82f6" stroke-width="1.5"/>
-            <path d="M35 48 H65" stroke="#3b82f6" stroke-width="1.5"/>
-            <path d="M35 60 H55" stroke="#3b82f6" stroke-width="1.5"/>
-            <circle cx="68" cy="68" r="12" fill="#1d4ed8"/>
-            <path d="M63 68 L66 71 L73 64" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
+      <!-- Card 4 -->
+      <div class="card">
+        <div class="card-icon">📝</div>
         <h3 data-id="c4-title">Tax Report Generator</h3>
         <p data-id="c4-desc">Menghitung pajak terutang dan menyusun draf formulir lampiran SPT Badan/OP siap lapor.</p>
       </div>
-
-      <!-- Card 5 (Purple Column) -->
-      <div class="card purple-border">
-        <div class="card-header">
-          <div class="card-icon">🛡️</div>
-          <svg class="card-graphic" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M50 15 C65 15 75 22 75 35 C75 55 58 75 50 85 C42 75 25 55 25 35 C25 22 35 15 50 15 Z" stroke="#a855f7" stroke-width="2" fill="none" opacity="0.3"/>
-            <rect x="40" y="38" width="20" height="16" rx="3" fill="#a855f7" fill-opacity="0.8"/>
-            <path d="M44 38 V32 C44 28 47 25 50 25 C53 25 56 28 56 32 V38" stroke="#c084fc" stroke-width="2" fill="none"/>
-          </svg>
-        </div>
+      <!-- Card 5 -->
+      <div class="card">
+        <div class="card-icon">🛡️</div>
         <h3 data-id="c5-title">Agent Update Manager</h3>
         <p data-id="c5-desc">Memantau pembaruan Git, memindai kebocoran kredensial secara aman, dan meminta izin sebelum memperbarui.</p>
       </div>
-
-      <!-- Card 6 (Green Column) -->
-      <div class="card green-border">
-        <div class="card-header">
-          <div class="card-icon">🧠</div>
-          <svg class="card-graphic" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M50 20 C35 20 30 30 30 45 C30 60 40 70 50 80 C60 70 70 60 70 45 C70 30 65 20 50 20 Z" stroke="#10b981" stroke-width="1.5" opacity="0.2"/>
-            <circle cx="50" cy="45" r="12" fill="#10b981" fill-opacity="0.8"/>
-            <path d="M50 45 L35 32 M50 45 L65 32 M50 45 L50 65 M50 45 L30 55 M50 45 L70 55" stroke="#10b981" stroke-width="1.5"/>
-            <circle cx="35" cy="32" r="4" fill="#a7f3d0"/>
-            <circle cx="65" cy="32" r="4" fill="#a7f3d0"/>
-            <circle cx="30" cy="55" r="4" fill="#a7f3d0"/>
-            <circle cx="70" cy="55" r="4" fill="#a7f3d0"/>
-          </svg>
-        </div>
+      <!-- Card 6 -->
+      <div class="card">
+        <div class="card-icon">🧠</div>
         <h3 data-id="c6-title">User Personalization Learner</h3>
         <p data-id="c6-desc">Menghafal profil Wajib Pajak klien, format pelaporan, toleransi risiko, dan belajar lewat perintah /learn.</p>
       </div>
-
-      <!-- Card 7 (Blue Column) -->
-      <div class="card blue-border">
-        <div class="card-header">
-          <div class="card-icon">⚖️</div>
-          <svg class="card-graphic" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line x1="30" y1="40" x2="70" y2="40" stroke="#3b82f6" stroke-width="2"/>
-            <line x1="50" y1="25" x2="50" y2="75" stroke="#3b82f6" stroke-width="2"/>
-            <path d="M30 40 L22 60 L38 60 Z" fill="#1d4ed8" fill-opacity="0.8"/>
-            <path d="M70 40 L62 60 L78 60 Z" fill="#1d4ed8" fill-opacity="0.8"/>
-          </svg>
-        </div>
+      <!-- Card 7 -->
+      <div class="card">
+        <div class="card-icon">⚖️</div>
         <h3 data-id="c7-title">Withholding Tax & VAT Analyst</h3>
         <p data-id="c7-desc">Menganalisis objek pemotongan/pemungutan PPh Pasal 21/22/23/26/4(2) dan ekualisasi e-Faktur PPN.</p>
       </div>
-
-      <!-- Card 8 (Purple Column) -->
-      <div class="card purple-border">
-        <div class="card-header">
-          <div class="card-icon">🏛️</div>
-          <svg class="card-graphic" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20 75 H80" stroke="#a855f7" stroke-width="3" stroke-linecap="round"/>
-            <path d="M25 75 V45 M38 75 V45 M50 75 V45 M62 75 V45 M75 75 V45" stroke="#a855f7" stroke-width="2"/>
-            <path d="M18 45 L50 20 L82 45 Z" fill="#a855f7" fill-opacity="0.8"/>
-          </svg>
-        </div>
+      <!-- Card 8 -->
+      <div class="card">
+        <div class="card-icon">🏛️</div>
         <h3 data-id="c8-title">Tax Dispute Defender</h3>
         <p data-id="c8-desc">Menyusun draf surat tanggapan formal atas surat imbauan klarifikasi SP2DK atau teguran resmi DJP.</p>
       </div>
-
-      <!-- Card 9 (Green Column) -->
-      <div class="card green-border">
-        <div class="card-header">
-          <div class="card-icon">💡</div>
-          <svg class="card-graphic" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M50 20 C38 20 28 30 28 45 C28 55 35 63 40 68 V76 H60 V68 C65 63 72 55 72 45 C72 30 62 20 50 20 Z" stroke="#10b981" stroke-width="2" fill="none" opacity="0.3"/>
-            <path d="M44 76 H56 M46 81 H54" stroke="#10b981" stroke-width="2"/>
-            <circle cx="50" cy="45" r="14" fill="#10b981" fill-opacity="0.8"/>
-            <line x1="50" y1="32" x2="50" y2="25" stroke="#a7f3d0" stroke-width="1.5"/>
-            <line x1="37" y1="37" x2="32" y2="32" stroke="#a7f3d0" stroke-width="1.5"/>
-            <line x1="63" y1="37" x2="68" y2="32" stroke="#a7f3d0" stroke-width="1.5"/>
-          </svg>
-        </div>
+      <!-- Card 9 -->
+      <div class="card">
+        <div class="card-icon">💡</div>
         <h3 data-id="c9-title">Tax Planner & Strategist</h3>
         <p data-id="c9-desc">Simulasi efisiensi beban pajak secara legal (seperti skema natura vs tunjangan uang tunai).</p>
       </div>
-
     </div>
   </section>
 
@@ -398,7 +282,7 @@
     };
 
     let currentLang = 'id';
-    let currentTheme = 'dark';
+    let currentTheme = 'light';
 
     function toggleLanguage() {
       currentLang = currentLang === 'id' ? 'en' : 'id';
@@ -415,9 +299,7 @@
       document.getElementById('seo-desc').setAttribute('content', data.seoDesc);
 
       // Hero Elements
-      document.getElementById('hero-title').innerHTML = currentLang === 'id' 
-        ? 'Otomatiskan Alur Kerja Perpajakan <span>Brevet AB</span>' 
-        : 'Automate Your <span>Brevet AB</span> Tax Workflows';
+      document.getElementById('hero-title').innerText = data.heroTitle;
       document.getElementById('hero-subtitle').innerText = data.heroSubtitle;
       document.getElementById('cta-install').innerText = data.ctaInstall;
 
@@ -458,12 +340,11 @@
     }
 
     function toggleTheme() {
-      currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      currentTheme = currentTheme === 'light' ? 'dark' : 'light';
       document.body.setAttribute('data-theme', currentTheme);
-      document.getElementById('theme-label').innerText = currentTheme === 'dark' ? 'Light' : 'Dark';
-      document.getElementById('theme-toggle').innerHTML = currentTheme === 'dark' 
-        ? '☀️ <span id="theme-label">Light</span>' 
-        : '🌙 <span id="theme-label">Dark</span>';
+      document.getElementById('theme-toggle').innerHTML = currentTheme === 'light' 
+        ? '🌙 <span id="theme-label">Dark</span>' 
+        : '☀️ <span id="theme-label">Light</span>';
     }
 
     function copyPrompt() {
@@ -479,7 +360,7 @@
     }
 
     // Set Default Theme/Lang on Load
-    document.body.setAttribute('data-theme', 'dark');
+    document.body.setAttribute('data-theme', 'light');
     applyLanguage();
   </script>
 </body>
