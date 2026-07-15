@@ -9,6 +9,8 @@
     { "path": "skills/withholding-vat-analyst" },
     { "path": "skills/tax-dispute-defender" },
     { "path": "skills/tax-planner-strategist" },
-    { "path": "skills/coretax-automation-specialist" }
+    { "path": "skills/coretax-automation-specialist" },
+    { "path": "skills/obsidian-tax-vault-manager" },
+    { "path": "skills/tax-ui-visualizer" }
   ]
 }
