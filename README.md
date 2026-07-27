@@ -25,8 +25,9 @@ This repository contains a comprehensive suite of 12 **Professional Tax Agent Sk
 11. **[Obsidian Tax Vault Manager](file:///c:/Users/ACER/Documents/GitHub/BrevetAB-Agent-Skills/skills/obsidian-tax-vault-manager/SKILL.md)**: Manages taxpayer client profiles, audit working papers, regulation bi-directional wikilinks (`[[PMK-66-2023]]`), and Dataview dashboards inside a local Obsidian Vault.
 12. **[Tax UI Visualizer & GUI Generator](file:///c:/Users/ACER/Documents/GitHub/BrevetAB-Agent-Skills/skills/tax-ui-visualizer/SKILL.md)**: Generates on-demand interactive Single-File HTML visualizers (General Ledger Explorer, SPT Preview) and compiles customizable Python Desktop GUI wrapper applications connected safely via CLI subprocess.
 
-### 🆕 What's New (v1.2.0)
-- **Obsidian Vault & On-Demand Desktop GUI**: Added `obsidian-tax-vault-manager` for local PKM integration and `tax-ui-visualizer` for generating custom desktop GUI wrappers or offline interactive HTML dashboards.
+### 🆕 What's New (v1.3.0)
+- **Multi-Tab Excel Audit Trail System**: Automatic audit trail generation in multi-tab Excel (`Audit_Trail_YYYYMM.xlsx`) and CSV with 17 granular columns (input/output files, sheet tabs, cell ranges, input values, error logs, mismatch evaluation, and anti-tampering SHA256 checksums).
+- **Obsidian Vault & On-Demand Desktop GUI (v1.2.0)**: Added `obsidian-tax-vault-manager` for local PKM integration and `tax-ui-visualizer` for generating custom desktop GUI wrappers or offline interactive HTML dashboards.
 - **CoreTax RPA Integration (v1.1.0)**: Introduced `coretax-automation-specialist` with `chrome-devtools-mcp` for secure browser data entry into CoreTax (SIAP).
 - **Initial Release (v1.0.0)**: Launched 9 core agent skills with Multimodal OCR, Safety Gates, and Bilingual docs.
 
@@ -72,8 +73,9 @@ Repositori ini berisi rangkaian lengkap dari 12 **Agent Skills Asisten Pajak Pro
 11. **[Obsidian Tax Vault Manager](file:///c:/Users/ACER/Documents/GitHub/BrevetAB-Agent-Skills/skills/obsidian-tax-vault-manager/SKILL.md)**: Mengelola profil klien, kertas kerja, tautan peraturan `[[PMK-66-2023]]`, dan dasbor Dataview di Obsidian Vault lokal.
 12. **[Tax UI Visualizer & GUI Generator](file:///c:/Users/ACER/Documents/GitHub/BrevetAB-Agent-Skills/skills/tax-ui-visualizer/SKILL.md)**: Menggenerasikan dasbor HTML interaktif mandiri (Buku Besar, Form SPT) dan aplikasi Python Desktop GUI *on-demand* yang aman terintegrasi via CLI Subprocess.
 
-### 🆕 Yang Baru (v1.2.0)
-- **Integrasi Vault Obsidian & Generator Desktop GUI**: Menambahkan `obsidian-tax-vault-manager` untuk manajemen pengetahuan PKM lokal dan `tax-ui-visualizer` untuk membuat dasbor HTML interaktif offline atau aplikasi Desktop GUI secara *on-demand*.
+### 🆕 Yang Baru (v1.3.0)
+- **Sistem Audit Trail Multi-Tab Excel**: Pembuatan log audit otomatis berformat Excel Multi-Tab (`Audit_Trail_YYYYMM.xlsx`) dan CSV dengan 17 kolom granular (lokasi berkas input/output, sheet tab, rentang cell, nilai input, log error, evaluasi ketidaksesuaian input vs output, serta checksum SHA-256 anti-tampering).
+- **Integrasi Vault Obsidian & Generator Desktop GUI (v1.2.0)**: Menambahkan `obsidian-tax-vault-manager` untuk manajemen pengetahuan PKM lokal dan `tax-ui-visualizer` untuk membuat dasbor HTML interaktif offline atau aplikasi Desktop GUI secara *on-demand*.
 - **Integrasi RPA CoreTax (v1.1.0)**: Menambahkan `coretax-automation-specialist` yang terintegrasi dengan `chrome-devtools-mcp` untuk pengisian data langsung secara aman ke web CoreTax (SIAP).
 - **Rilis Pertama (v1.0.0)**: Peluncuran 9 agent skills perpajakan utama dengan OCR Multimoda dan gerbang keamanan kredensial.
 

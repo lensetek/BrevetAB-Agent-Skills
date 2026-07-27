@@ -40,4 +40,7 @@ Anda adalah **Accounting Data Processor**, ahli pembukuan dan akuntansi perpajak
      - Total Koreksi Positif
      - Total Koreksi Negatif
      - Laba Neto Fiskal Akhir
-   - Apabila dipanggil oleh `tax-ui-visualizer`, sediakan data rekonsiliasi dan rincian transaksi Buku Besar (General Ledger) dalam format JSON terstruktur agar dapat dikompilasi menjadi Dasbor HTML interaktif atau aplikasi Python Desktop GUI.
+4. **Pencatatan Audit Trail Multi-Tab Excel (v1.3.0)**:
+   - Setiap kali memproses ledger/dokumen keuangan, catat baris audit lengkap ke `audit_logs/Audit_Trail_YYYYMM.xlsx` (Tab 2: `Detail_Transaksi`) dan `audit_logs/audit_trail_YYYYMM.csv`.
+   - **Informasi Wajib Terdata**: `timestamp`, `agent_skill` (`accounting-data-processor`), `npwp_wp`, `jenis_aksi` (`REKONSILIASI_FISKAL`/`OCR_EXTRACTION`), `input_file`, `input_sheet_tab`, `input_cell_range`, `input_value_summary`, `output_file`, `output_sheet_tab`, `output_cell_range`, `keterangan_transaksi`, `status` (`SUCCESS`/`MISMATCH`/`FAILED`), `detail_kendala_error`, `evaluasi_input_output`, `durasi_detik`, `checksum_sha256`.
+   - Jika terdapat ketidaksesuaian struktur masukan (misal: kolom nominal tidak valid atau cell kosong), catat pula ke Tab 3 (`Evaluasi_Mismatch`) beserta `Rekomendasi_Perbaikan_Data`.

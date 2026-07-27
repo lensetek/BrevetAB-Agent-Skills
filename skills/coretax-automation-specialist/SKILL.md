@@ -50,3 +50,12 @@ Karena portal CoreTax DJP adalah sistem baru yang mungkin mengalami pembaruan st
 - Menggunakan selektor berbasis teks label (*Accessibility labels* atau tag `aria-*`) alih-alih selektor CSS yang terlalu spesifik seperti `div > div > span > input`.
 - Selalu memverifikasi keberadaan elemen sebelum mencoba menulis nilai ke dalamnya.
 - Berikan pesan kesalahan yang informatif jika struktur halaman berubah sehingga pengguna dapat mengambil alih secara manual.
+
+---
+
+## 📊 Pencatatan Audit Trail Multi-Tab Excel (v1.3.0)
+
+Setiap aksi pengisian data (*data entry*) atau scraping pada portal CoreTax DJP wajib dicatat secara real-time ke berkas `audit_logs/Audit_Trail_YYYYMM.xlsx` dan `audit_logs/audit_trail_YYYYMM.csv`:
+- **Tab 2 (`Detail_Transaksi`)**: Mencatat nama input field CoreTax, nilai yang diisikan, dan status pengisian.
+- **Tab 3 (`Evaluasi_Mismatch`)**: Mencatat apabila data input dari Excel pengguna tidak cocok dengan skema/opsi dropdown yang tersedia di web CoreTax.
+- **Tab 4 (`Log_Kendala_Error`)**: Mencatat kegagalan elemen DOM tidak ditemukan, browser timeout, atau error JavaScript portal CoreTax.

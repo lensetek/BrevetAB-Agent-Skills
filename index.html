@@ -197,6 +197,10 @@
       <h2 id="whatsnew-title">🆕 Yang Baru di Versi Ini</h2>
       <div class="changelog-list">
         <div class="changelog-item">
+          <span class="changelog-badge" id="c-badge-audit">Multi-Tab Excel Audit</span>
+          <span class="changelog-text" id="c-text-audit">Pencatatan log audit otomatis dalam format Excel Multi-Tab (5 Tab) & CSV dengan 17 kolom granular.</span>
+        </div>
+        <div class="changelog-item">
           <span class="changelog-badge" id="c-badge-obs">Obsidian & Desktop GUI</span>
           <span class="changelog-text" id="c-text-obs">Integrasi manajemen pengetahuan Obsidian Vault & generator Dasbor HTML / Desktop GUI on-demand.</span>
         </div>
@@ -276,7 +280,9 @@
         badgeRpa: "RPA CoreTax",
         textRpa: "Otomatisasi pengisian data langsung ke web CoreTax secara aman via MCP.",
         badgeObs: "Obsidian & Desktop GUI",
-        textObs: "Integrasi manajemen pengetahuan Obsidian Vault & generator Dasbor HTML / Desktop GUI on-demand."
+        textObs: "Integrasi manajemen pengetahuan Obsidian Vault & generator Dasbor HTML / Desktop GUI on-demand.",
+        badgeAudit: "Multi-Tab Excel Audit",
+        textAudit: "Pencatatan log audit otomatis dalam format Excel Multi-Tab (5 Tab) & CSV dengan 17 kolom granular."
       },
       en: {
         seoTitle: "Brevet AB Tax Agent Skills - Professional AI Tax Assistant",
@@ -323,7 +329,9 @@
         badgeRpa: "CoreTax RPA",
         textRpa: "Secure direct-filing automation onto CoreTax portal using browser MCP.",
         badgeObs: "Obsidian & Desktop GUI",
-        textObs: "Obsidian Vault PKM integration & on-demand Desktop GUI / interactive HTML dashboard generator."
+        textObs: "Obsidian Vault PKM integration & on-demand Desktop GUI / interactive HTML dashboard generator.",
+        badgeAudit: "Multi-Tab Excel Audit",
+        textAudit: "Automated audit trail logging in Multi-Tab Excel (5 Tabs) & CSV format with 17 granular columns."
       }
     };
 
@@ -383,6 +391,8 @@
 
       // Changelog
       document.getElementById('whatsnew-title').innerText = data.whatsNewTitle;
+      document.getElementById('c-badge-audit').innerText = data.badgeAudit;
+      document.getElementById('c-text-audit').innerText = data.textAudit;
       document.getElementById('c-badge-obs').innerText = data.badgeObs;
       document.getElementById('c-text-obs').innerText = data.textObs;
       document.getElementById('c-badge-rpa').innerText = data.badgeRpa;
