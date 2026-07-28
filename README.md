@@ -8,7 +8,7 @@
 ## English Version
 
 ### About the Project
-This repository contains a comprehensive suite of 12 **Professional Tax Agent Skills (Brevet A & B)** designed for advanced AI Coding and Consulting Agents. It automates financial reconciliation, tax calculation, compliance checking, dispute drafting, tax planning, browser-based CoreTax filing, local Obsidian PKM knowledge management, and on-demand interactive UI/Desktop GUI generation.
+This repository contains a comprehensive suite of 13 **Professional Tax Agent Skills (Brevet A & B)** designed for advanced AI Coding and Consulting Agents. It automates financial reconciliation, tax calculation, compliance checking, dispute drafting, tax planning, browser-based CoreTax filing, local Obsidian PKM knowledge management, on-demand interactive UI/Desktop GUI generation, and desktop OS computer-use RPA automation with resilient auto-fallback recovery.
 
 ### 📋 Agent Explanations
 
@@ -24,9 +24,11 @@ This repository contains a comprehensive suite of 12 **Professional Tax Agent Sk
 10. **[CoreTax Automation Specialist](file:///c:/Users/ACER/Documents/GitHub/BrevetAB-Agent-Skills/skills/coretax-automation-specialist/SKILL.md)**: Automates SPT form filing and data entry directly onto the DJP CoreTax portal (SIAP) using `chrome-devtools-mcp` via secure hybrid execution.
 11. **[Obsidian Tax Vault Manager](file:///c:/Users/ACER/Documents/GitHub/BrevetAB-Agent-Skills/skills/obsidian-tax-vault-manager/SKILL.md)**: Manages taxpayer client profiles, audit working papers, regulation bi-directional wikilinks (`[[PMK-66-2023]]`), and Dataview dashboards inside a local Obsidian Vault.
 12. **[Tax UI Visualizer & GUI Generator](file:///c:/Users/ACER/Documents/GitHub/BrevetAB-Agent-Skills/skills/tax-ui-visualizer/SKILL.md)**: Generates on-demand interactive Single-File HTML visualizers (General Ledger Explorer, SPT Preview) and compiles customizable Python Desktop GUI wrapper applications connected safely via CLI subprocess.
+13. **[Desktop RPA & Computer Use Specialist](file:///c:/Users/ACER/Documents/GitHub/BrevetAB-Agent-Skills/skills/desktop-rpa-computer-use/SKILL.md)**: Automates desktop OS GUI controls (e-SPT Desktop, e-Faktur Client-Desktop, Accurate Desktop, MYOB, Zahir, Excel Macros) using `stablyai/orca@computer-use` as primary engine with automatic fallback recovery (`midscene-skills@computer-automation` & `codex-skills@gemini-computer-use`).
 
-### 🆕 What's New (v1.3.0)
-- **Multi-Tab Excel Audit Trail System**: Automatic audit trail generation in multi-tab Excel (`Audit_Trail_YYYYMM.xlsx`) and CSV with 17 granular columns (input/output files, sheet tabs, cell ranges, input values, error logs, mismatch evaluation, and anti-tampering SHA256 checksums).
+### 🆕 What's New (v1.4.0)
+- **Desktop OS RPA & Computer Use Specialist**: Added `desktop-rpa-computer-use` for operating non-web desktop tax and accounting applications (e-SPT Desktop, e-Faktur Desktop, Accurate, MYOB) featuring resilient Auto-Fallback Recovery.
+- **Multi-Tab Excel Audit Trail System (v1.3.0)**: Automatic audit trail generation in multi-tab Excel (`Audit_Trail_YYYYMM.xlsx`) and CSV with 17 granular columns (input/output files, sheet tabs, cell ranges, input values, error logs, mismatch evaluation, and anti-tampering SHA256 checksums).
 - **Obsidian Vault & On-Demand Desktop GUI (v1.2.0)**: Added `obsidian-tax-vault-manager` for local PKM integration and `tax-ui-visualizer` for generating custom desktop GUI wrappers or offline interactive HTML dashboards.
 - **CoreTax RPA Integration (v1.1.0)**: Introduced `coretax-automation-specialist` with `chrome-devtools-mcp` for secure browser data entry into CoreTax (SIAP).
 - **Initial Release (v1.0.0)**: Launched 9 core agent skills with Multimodal OCR, Safety Gates, and Bilingual docs.
@@ -56,7 +58,7 @@ To use the CoreTax direct-filling features, configure the Chrome DevTools MCP se
 ## Versi Bahasa Indonesia
 
 ### Tentang Proyek
-Repositori ini berisi rangkaian lengkap dari 12 **Agent Skills Asisten Pajak Profesional (Brevet A & B)** yang dirancang untuk AI Coding & Consulting Agent. Sistem ini mengotomatiskan rekonsiliasi fiskal akuntansi, perhitungan pajak, pemeriksaan regulasi baru, penyusunan draf sengketa, perencanaan pajak, pengisian formulir CoreTax via browser, manajemen pengetahuan di Obsidian Vault, hingga pembentukan Dasbor UI & Aplikasi Desktop GUI secara *on-demand*.
+Repositori ini berisi rangkaian lengkap dari 13 **Agent Skills Asisten Pajak Profesional (Brevet A & B)** yang dirancang untuk AI Coding & Consulting Agent. Sistem ini mengotomatiskan rekonsiliasi fiskal akuntansi, perhitungan pajak, pemeriksaan regulasi baru, penyusunan draf sengketa, perencanaan pajak, pengisian formulir CoreTax via browser, manajemen pengetahuan di Obsidian Vault, pembentukan Dasbor UI & Aplikasi Desktop GUI, hingga otomatisasi RPA desktop OS dengan fitur *Auto-Fallback Recovery*.
 
 ### 📋 Penjelasan Agent
 
@@ -72,9 +74,11 @@ Repositori ini berisi rangkaian lengkap dari 12 **Agent Skills Asisten Pajak Pro
 10. **[CoreTax Automation Specialist](file:///c:/Users/ACER/Documents/GitHub/BrevetAB-Agent-Skills/skills/coretax-automation-specialist/SKILL.md)**: Mengotomatiskan pengisian formulir SPT dan pengiriman data langsung ke portal web CoreTax DJP (SIAP) secara aman menggunakan `chrome-devtools-mcp` (eksekusi hybrid).
 11. **[Obsidian Tax Vault Manager](file:///c:/Users/ACER/Documents/GitHub/BrevetAB-Agent-Skills/skills/obsidian-tax-vault-manager/SKILL.md)**: Mengelola profil klien, kertas kerja, tautan peraturan `[[PMK-66-2023]]`, dan dasbor Dataview di Obsidian Vault lokal.
 12. **[Tax UI Visualizer & GUI Generator](file:///c:/Users/ACER/Documents/GitHub/BrevetAB-Agent-Skills/skills/tax-ui-visualizer/SKILL.md)**: Menggenerasikan dasbor HTML interaktif mandiri (Buku Besar, Form SPT) dan aplikasi Python Desktop GUI *on-demand* yang aman terintegrasi via CLI Subprocess.
+13. **[Desktop RPA & Computer Use Specialist](file:///c:/Users/ACER/Documents/GitHub/BrevetAB-Agent-Skills/skills/desktop-rpa-computer-use/SKILL.md)**: Mengotomatiskan kontrol GUI aplikasi desktop non-web (e-SPT Desktop, e-Faktur Client Desktop, Accurate, MYOB, Zahir, Excel Macros) berbasis `stablyai/orca@computer-use` dengan sistem pemulihan otomatis (*Auto-Fallback Recovery* ke `midscene-skills` & `codex-skills`).
 
-### 🆕 Yang Baru (v1.3.0)
-- **Sistem Audit Trail Multi-Tab Excel**: Pembuatan log audit otomatis berformat Excel Multi-Tab (`Audit_Trail_YYYYMM.xlsx`) dan CSV dengan 17 kolom granular (lokasi berkas input/output, sheet tab, rentang cell, nilai input, log error, evaluasi ketidaksesuaian input vs output, serta checksum SHA-256 anti-tampering).
+### 🆕 Yang Baru (v1.4.0)
+- **Spesialis Desktop OS RPA & Computer Use**: Menambahkan `desktop-rpa-computer-use` untuk mengoperasikan aplikasi pajak & akuntansi desktop lokal (e-SPT Desktop, e-Faktur Desktop, Accurate, MYOB) dengan sistem *Auto-Fallback Recovery*.
+- **Sistem Audit Trail Multi-Tab Excel (v1.3.0)**: Pembuatan log audit otomatis berformat Excel Multi-Tab (`Audit_Trail_YYYYMM.xlsx`) dan CSV dengan 17 kolom granular (lokasi berkas input/output, sheet tab, rentang cell, nilai input, log error, evaluasi ketidaksesuaian input vs output, serta checksum SHA-256 anti-tampering).
 - **Integrasi Vault Obsidian & Generator Desktop GUI (v1.2.0)**: Menambahkan `obsidian-tax-vault-manager` untuk manajemen pengetahuan PKM lokal dan `tax-ui-visualizer` untuk membuat dasbor HTML interaktif offline atau aplikasi Desktop GUI secara *on-demand*.
 - **Integrasi RPA CoreTax (v1.1.0)**: Menambahkan `coretax-automation-specialist` yang terintegrasi dengan `chrome-devtools-mcp` untuk pengisian data langsung secara aman ke web CoreTax (SIAP).
 - **Rilis Pertama (v1.0.0)**: Peluncuran 9 agent skills perpajakan utama dengan OCR Multimoda dan gerbang keamanan kredensial.

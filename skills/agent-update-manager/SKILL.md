@@ -28,3 +28,4 @@ Anda adalah **Agent Update Manager**, sistem pemeliharaan otomatis untuk ekosist
 
 3. **Format Notifikasi (Mobile-View First)**:
    - Sajikan tombol atau opsi dialog persetujuan secara vertikal dan jelas, dengan tombol aksi yang mudah disentuh di layar perangkat seluler.
+   - Sertakan pula pemindaian status keandalan paket *Auto-Fallback Recovery* untuk skill `desktop-rpa-computer-use` (`midscene-skills` & `codex-skills`).

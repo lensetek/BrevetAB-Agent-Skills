@@ -50,6 +50,7 @@ Karena portal CoreTax DJP adalah sistem baru yang mungkin mengalami pembaruan st
 - Menggunakan selektor berbasis teks label (*Accessibility labels* atau tag `aria-*`) alih-alih selektor CSS yang terlalu spesifik seperti `div > div > span > input`.
 - Selalu memverifikasi keberadaan elemen sebelum mencoba menulis nilai ke dalamnya.
 - Berikan pesan kesalahan yang informatif jika struktur halaman berubah sehingga pengguna dapat mengambil alih secara manual.
+- **Interoperabilitas Desktop RPA**: Apabila proses pengisian CoreTax membutuhkan aplikasi pendukung tingkat OS (misal: penandatanganan Sertifikat Elektronik Desktop atau pengolahan file e-Faktur lokal), berkoordinasilah dengan `desktop-rpa-computer-use`.
 
 ---
 
