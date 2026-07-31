@@ -113,7 +113,7 @@
 
   <!-- Grid Section -->
   <section class="container">
-    <h2 class="section-title" id="grid-title">13 Spesialis Perpajakan AI</h2>
+    <h2 class="section-title" id="grid-title">14 Spesialis Perpajakan AI</h2>
     
     <div class="grid" id="grid-container">
       <!-- Card 1 -->
@@ -194,6 +194,12 @@
         <h3 data-id="c13-title">Desktop RPA & Computer Use Specialist</h3>
         <p data-id="c13-desc">Mengotomatiskan GUI aplikasi desktop lokal (e-SPT, e-Faktur, Accurate, MYOB) berbasis Orca dengan Auto-Fallback Recovery.</p>
       </div>
+      <!-- Card 14 -->
+      <div class="card">
+        <div class="card-icon">🕸️</div>
+        <h3 data-id="c14-title">Financial Graph Architect</h3>
+        <p data-id="c14-desc">Mengindeks data akuntansi, laporan keuangan, dan aturan pajak menjadi Knowledge Graph queryable via Graphify AST & MCP.</p>
+      </div>
     </div>
   </section>
 
@@ -202,6 +208,10 @@
     <div class="whats-new">
       <h2 id="whatsnew-title">🆕 Yang Baru di Versi Ini</h2>
       <div class="changelog-list">
+        <div class="changelog-item">
+          <span class="changelog-badge" id="c-badge-graph">Graphify Engine</span>
+          <span class="changelog-text" id="c-text-graph">Pemetaan Knowledge Graph terisolasi per proyek akuntansi/laporan keuangan menggunakan Graphify AST & MCP Server.</span>
+        </div>
         <div class="changelog-item">
           <span class="changelog-badge" id="c-badge-comp">Desktop Computer Use RPA</span>
           <span class="changelog-text" id="c-text-comp">Otomatisasi aplikasi pajak & akuntansi desktop OS dengan fitur Auto-Fallback Recovery.</span>
@@ -247,14 +257,14 @@
     const t = {
       id: {
         seoTitle: "Brevet AB Tax Agent Skills - Asisten Pajak AI Profesional",
-        seoDesc: "Ekosistem 13 Agent Skills perpajakan profesional Brevet A & B untuk asisten AI. Membantu rekonsiliasi fiskal, hitung PPh/PPN, pengisian langsung CoreTax, manajemen Obsidian Vault, dasbor visual, dan otomatisasi RPA Desktop OS secara aman.",
+        seoDesc: "Ekosistem 14 Agent Skills perpajakan profesional Brevet A & B untuk asisten AI. Membantu rekonsiliasi fiskal, hitung PPh/PPN, pengisian langsung CoreTax, manajemen Obsidian Vault, dasbor visual, otomatisasi RPA Desktop OS, dan Graphify Knowledge Engine secara aman.",
         heroTitle: "Otomatiskan Alur Kerja Perpajakan Brevet AB",
         heroSubtitle: "Asisten AI pintar untuk konsultan dan profesional pajak. Dilengkapi kapabilitas rekonsiliasi fiskal, pemantau regulasi harian, hingga penanganan sengketa SP2DK.",
         ctaInstall: "Cara Instalasi",
         installerTitle: "Salin Prompt untuk Instalasi Cepat",
         copyBtnText: "Salin",
         copiedText: "Disalin!",
-        gridTitle: "13 Spesialis Perpajakan AI",
+        gridTitle: "14 Spesialis Perpajakan AI",
         whatsNewTitle: "🆕 Yang Baru di Versi Ini",
         badgeMajor: "Rilis Utama",
         badgeOcr: "OCR Multimoda",
@@ -289,6 +299,10 @@
         c12Desc: "Membuat dasbor HTML interaktif offline mandiri dan mengompilasi aplikasi Desktop GUI Python on-demand secara aman.",
         c13Title: "Desktop RPA & Computer Use Specialist",
         c13Desc: "Mengotomatiskan GUI aplikasi desktop lokal (e-SPT, e-Faktur, Accurate, MYOB) berbasis Orca dengan Auto-Fallback Recovery.",
+        c14Title: "Financial Graph Architect",
+        c14Desc: "Mengindeks data akuntansi, laporan keuangan, dan aturan pajak menjadi Knowledge Graph queryable via Graphify AST & MCP.",
+        badgeGraph: "Graphify Engine",
+        textGraph: "Pemetaan Knowledge Graph terisolasi per proyek akuntansi/laporan keuangan menggunakan Graphify AST & MCP Server.",
         badgeRpa: "RPA CoreTax",
         textRpa: "Otomatisasi pengisian data langsung ke web CoreTax secara aman via MCP.",
         badgeObs: "Obsidian & Desktop GUI",
@@ -300,14 +314,14 @@
       },
       en: {
         seoTitle: "Brevet AB Tax Agent Skills - Professional AI Tax Assistant",
-        seoDesc: "An ecosystem of 13 professional Brevet A & B tax agent skills for AI assistants. Automatically executes fiscal reconciliation, tax calculations, direct CoreTax filing, Obsidian Vault management, visual dashboards, and desktop OS RPA automation securely.",
+        seoDesc: "An ecosystem of 14 professional Brevet A & B tax agent skills for AI assistants. Automatically executes fiscal reconciliation, tax calculations, direct CoreTax filing, Obsidian Vault management, visual dashboards, desktop OS RPA automation, and Graphify Knowledge Engine securely.",
         heroTitle: "Automate Your Brevet AB Tax Workflows",
         heroSubtitle: "An intelligent AI assistant for tax consultants and professionals. Equipped with fiscal reconciliation, daily regulation tracking, and SP2DK dispute handling.",
         ctaInstall: "Installation",
         installerTitle: "Copy Prompt for Quick Installation",
         copyBtnText: "Copy",
         copiedText: "Copied!",
-        gridTitle: "13 AI Taxation Specialists",
+        gridTitle: "14 AI Taxation Specialists",
         whatsNewTitle: "🆕 What's New in This Version",
         badgeMajor: "Major Release",
         badgeOcr: "Multimodal OCR",
@@ -342,6 +356,10 @@
         c12Desc: "Generates standalone offline HTML dashboards and compiles on-demand Python Desktop GUI apps securely.",
         c13Title: "Desktop RPA & Computer Use Specialist",
         c13Desc: "Automates desktop OS GUI controls (e-SPT Desktop, e-Faktur Client-Desktop, Accurate Desktop, MYOB, Zahir, Excel Macros) using Orca with Auto-Fallback Recovery.",
+        c14Title: "Financial Graph Architect",
+        c14Desc: "Maps accounting data, financial statements, and tax rules into a queryable Knowledge Graph via Graphify AST & MCP.",
+        badgeGraph: "Graphify Engine",
+        textGraph: "Project-isolated Knowledge Graph indexing for financial statements & tax rules using Graphify AST & MCP Server.",
         badgeRpa: "CoreTax RPA",
         textRpa: "Secure direct-filing automation onto CoreTax portal using browser MCP.",
         badgeObs: "Obsidian & Desktop GUI",
@@ -408,9 +426,13 @@
       document.querySelector('[data-id="c12-desc"]').innerText = data.c12Desc;
       document.querySelector('[data-id="c13-title"]').innerText = data.c13Title;
       document.querySelector('[data-id="c13-desc"]').innerText = data.c13Desc;
+      document.querySelector('[data-id="c14-title"]').innerText = data.c14Title;
+      document.querySelector('[data-id="c14-desc"]').innerText = data.c14Desc;
 
       // Changelog
       document.getElementById('whatsnew-title').innerText = data.whatsNewTitle;
+      document.getElementById('c-badge-graph').innerText = data.badgeGraph;
+      document.getElementById('c-text-graph').innerText = data.textGraph;
       document.getElementById('c-badge-comp').innerText = data.badgeComp;
       document.getElementById('c-text-comp').innerText = data.textComp;
       document.getElementById('c-badge-audit').innerText = data.badgeAudit;
